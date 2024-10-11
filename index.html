@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- font-family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+        <!-- boxicons cdn  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!----Tailwind-css-CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Peddy Pet Shop</title>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              btn_bg: "#0E7A81",
+              border_rig: "rgba(14, 122, 129, 0.15)",
+              sec_md: "rgba(19, 19, 19, 0.6)",
+              descText: "#131313",
+              border_act: "1.5px solid rgb(14, 122, 129)",
+              act_bg: "rgba(14, 122, 129, 0.1)",
+            },
+            fontFamily: {
+              fontLato: ['"Lato", sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+
+  </head>
+  <body class="font-fontLato">
+
+<header class="bg-white">
+      <nav class="w-11/12 mx-auto py-2 border-b">
+        <div class="navbar p-0">
+          <div class="navbar-start lg:w-1/2 w-full">
+            <div class="dropdown">
+              <div
+                tabindex="0"
+                role="button"
+                class="w-8 h-8 bg-white p-2 font-extrabold mr-4 inline-flex items-center border gap-2 shadow rounded-full lg:hidden"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg> 
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+              <li><a class="text-sm text-slate-500 font-medium">Home</a></li>
+              <li><a class="text-sm text-slate-500 font-medium">About Us</a></li>
+              <li><a class="text-sm text-slate-500 font-medium">Marketing</a></li>
+              <li><a class="text-sm text-slate-500 font-medium">Animals</a></li>
+              <li><a class="text-sm text-slate-500 font-medium">Foundation</a></li>
+              <li><a class="text-sm text-slate-500 font-medium">Contact</a></li>
+              </ul>
+            </div>
+            <div class="inline-flex justify-center items-center">
+              <img class="w-5 h-5 mr-2" src="./images/logo.png" alt="Logo" />
+              <a class="lg:text-2xl text-xl text-black font-extrabold"
+                >Peddy</a>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a class="text-lg text-slate-500 font-bold">Home</a></li>
+                <li><a class="text-lg text-slate-500 font-bold">Shop</a></li>
+                <li><a class="text-lg text-slate-500 font-bold">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end lg:w-1/2 w-0">
+            <img
+              class="w-8 h-8 lg:block hidden"
+              src="https://img.icons8.com/?size=24&id=85050&format=png"
+              alt="icon"/>
+          </div>
+        </div>
+  </nav>
+
+  <!-- Banner Section  Start-->
+        <div class="hero min-h-screen">
+          <div class="hero-content text-center">
+            <div class="max-w-md">
+              <p class="py-4 text-sec_md font-extrabold">
+                Bringing Families Together 🔥
+              </p>
+              <h1 class="lg:text-4xl text-2xl font-extrabold">
+                Your Path to Adoption Starts Here
+              </h1>
+              <p class="py-6 lg:text-md text-sm">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a.
+              </p>
+              <button id="hero-btn" >
+                <a href="#about-us" class="btn bg-btn_bg hover:bg-btn_bg text-white font-semibold">View More</a> 
+              </button>
+              <img class="py-6" src="./images/pet.png" alt="image" />
+            </div>
+          </div>
+        </div>
+</header>
+
+    <!--  Main section -->
+  <main id="about-us">
+      <!-- Adopt  Your  Best Friend  -->
+<section  class="w-11/12 mx-auto py-2">
+
+    <h1 class="lg:text-4xl text-2xl text-descText font-extrabold pt-6 text-center">
+       Adopt Your Best Friend
+    </h1>
+    <p class="py-6 lg:text-md text-sm text-center">
+      You will save a life.If you adopt an adult pet, there's a possibility
+      you can avoid some of the hassles related to house-training<br />
+      and teething, which are associated with puppies and kittens. Of
+      course, if you prefer a puppy or <br />kitten, rescue groups and
+      shelters have plenty of those available as well.
+    </p>
+</section>
+
+<section class="w-11/12 mx-auto py-2">
+      <!--creade pets 4 buttons  -->
+  <div id="categories_container" class="flex justify-between flex-wrap gap-4 pb-10">
+
+  </div>
+
+  <!-- Best Deal & sort button  -->
+  <div class="flex justify-between font-bold mb-8">
+    <button id="bestDealCard" class="lg:text-md text-sm font-extrabold py-2 px-6">
+      Best Deal For you
+    </button>
+    <!-- sorted button -->
+    <button id="sortBtn" onclick="sortCard()" class="bg-btn_bg text-white text-sm font-bold shadow rounded-lg px-6 py-3">
+      Sort By Price
+    </button>
+  </div>
+</section>
+
+    <!-- spanner button  -->
+  <div id="spinners" class="flex justify-center items-center pb-4">
+    <span class="loading loading-bars loading-md"></span>
+  </div>
+
+<section class="w-11/12 mx-auto py-2">
+   <!--card-start  --  -->
+  <div id="pests-box"  class="grid lg:grid-cols-4 grid-cols-1 gap-5 min-h-screen pb-14">
+      <div class="col-span-3">
+        <div id="pests-container" class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+
+        </div>
+      </div>
+    <!-- -sidebar-  -->
+      <div class="border border-border_rig lg:col-span-1 col-span-3 p-4 shadow-sm rounded-xl">
+        <div id="sideber-img" class="grid grid-cols-2 gap-3">
+    
+        </div>
+      </div> 
+  </div> 
+  </section>
+
+  <section id="categories" class="w-11/12 mx-auto py-8"></section>
+</main>
+
+<!-- Details Button Open the modal using -->
+<button id="showModalData" class="btn hidden" onclick="customModal.showModal()">
+  <!--details-->
+</button>
+<dialog id="customModal" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div id="model-content">
+      <!--Add content  -->
+    </div>
+    <div class="modal-action block">
+      <form method="dialog">
+        <button class="w-full py-4 rounded-lg text-btn_bg font-extrabold border border-border_rig bg-act_bg tracking-wider">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+    <!-- Adept poppup button  -->
+<button id="showAdeptbtn" onclick="customs.showModal()">
+</button>
+<dialog id="customs" class="modal modal-bottom sm:modal-middle">
+  <div id="modal-box" class="modal-box">
+    <div id="adoptBtn" class="flex flex-col items-center">
+    </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <button id="claseBtn" class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+ <!-- Footer section  -->
+<footer class=" bg-descText py-20">
+<div class="w-11/12 mx-auto flex justify-between lg:flex-row flex-col flex-wrap">
+   <nav class="space-y-4">
+    <div class="flex tracking-wider">
+      <img class="w-6 h-6 mr-2 pt-1" src="./images/logo.png" alt="Logo" />
+       <a class="lg:text-2xl text-xl text-white font-extrabold">
+        Peddy Shop
+        </a>
+      </div>
+      <div class="text-slate-400 text-sm tracking-wider space-y-2">
+        <p>Location: av. Washington 165, NY CA 54003</p>
+        <p>Phone: +88 85 964 47 25</p>
+        <p>Email: wptasmina@com</p>
+        <p>Openings hours: 9.00 AM - 11.00 PM</p>
+      </div>
+    <div class="flex gap-4">
+      <a href="https://www.facebook.com">
+        <img class="w-8 " src="https://img.icons8.com/?size=48&id=uLWV5A9vXIPu&format=png" alt="socile midea icon">
+      </a>
+      <a href="https://www.twitter.com">
+         <img class="w-8 " src="https://img.icons8.com/?size=48&id=ClbD5JTFM7FA&format=png" alt="socile midea icon"> 
+      </a>
+      <a href="https://www.youtube.com">
+        <img class="w-8 " src="https://img.icons8.com/?size=48&id=19318&format=png" alt="socile midea icon">
+      </a>
+      <a href="https://www.instagram.com">
+        <img class="w-8 " src="https://img.icons8.com/?size=48&id=Xy10Jcu1L2Su&format=png" alt="socile midea icon">
+      </a>
+    </div>
+  </nav>
+  <nav class="flex flex-col tracking-wider space-y-2">
+    <h6 class="text-white text-xl font-extrabold">Useful Links</h6>
+    <!-- <div class=""> -->
+      <a class="text-sm text-slate-400">Home</a>
+      <a class="text-sm text-slate-400">About Us</a>
+      <a class="text-sm text-slate-400">Marketing</a>
+      <a class="text-sm text-slate-400">Animals</a>
+      <a class="text-sm text-slate-400">Foundation</a>
+      <a class="text-sm text-slate-400 pb-6">Contact</a>
+    <!-- </div> -->
+  </nav>
+  <nav class="space-y-3">
+    <h6 class="text-white text-xl font-extrabold">Drop a Message</h6>
+   <div class="flex lg:flex-col flex-row gap-4 tracking-wider">
+      <button class="px-6 py-3  text-sm bg-gray-950 rounded-md text-slate-400">Enter your email</button>
+      <button class="px-6 py-3 bg-btn_bg text-sm text-white rounded-md">Subscribe</button>
+   </div>
+  </nav>
+</div>
+</footer>
+
+    <!-- javaScript  -->
+  <script src="./Js/adopt.js"></script>
+  <script src="./Js/button.js"></script>
+  <script src="./Js/sortCard.js"></script>
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
