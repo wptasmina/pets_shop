@@ -1,4 +1,5 @@
-Live Link :  https://wptasmina.github.io/pets_shop
+GitHub Live Link :  https://wptasmina.github.io/pets_shop  
+Netlify Live Link : https://app.netlify.com/sites/peddpets-shop/domain-management 
 
 
 project Name : peddy
