@@ -4,7 +4,7 @@
 
 GitHub Live Link :  https://wptasmina.github.io/pets_shop  
 
-Netlify Live Link : https://app.netlify.com/sites/peddpets-shop/domain-management 
+Netlify Link :  https://peddpets-shop.netlify.app
 
 ## 📌 Project Description  
 PEDDY is designed to assist modern busy individuals who spend long hours away from home while ensuring their companion animals receive the care they need. It provides essential information and adoption guidance for various pets, including:  
