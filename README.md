@@ -1,13 +1,30 @@
+
+
+# 🐾 PEDDY - Pet Companion Solution  
+
 GitHub Live Link :  https://wptasmina.github.io/pets_shop  
+
 Netlify Live Link : https://app.netlify.com/sites/peddpets-shop/domain-management 
 
+## 📌 Project Description  
+PEDDY is designed to assist modern busy individuals who spend long hours away from home while ensuring their companion animals receive the care they need. It provides essential information and adoption guidance for various pets, including:  
 
-project Name : peddy
-description: PEDDY is a product made to help both busy modern people who have a lot of time to leave home and their companion animals left alone at that time.Here are just a few of the things Best Friends is doing to make adopting a pet.
-.dogs
-.cat
-.rabbit
-.Birds
-.cow
-All these animals play an importaant rols in human life.
-ES6: Array function  & Json data
+- 🐶 Dogs  
+- 🐱 Cats  
+- 🐰 Rabbits  
+- 🐦 Birds  
+- 🐄 Cows  
+
+All these animals play an important role in human life, offering companionship, emotional support, and utility. PEDDY connects people with the right pet while promoting responsible pet adoption.  
+
+## 🛠 Technologies Used  
+- **HTML5, CSS3, JavaScript**  
+- **ES6 Features**: Array functions & JSON data handling  
+
+## 🎯 Features  
+✅ User-friendly interface for pet adoption  
+✅ Information on different pet species  
+✅ Interactive pet selection system  
+✅ Responsive design for seamless access  
+
+🚀 **Start exploring PEDDY today and find your perfect pet companion!**  
