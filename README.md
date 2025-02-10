@@ -1,10 +1,10 @@
 
+![peddpets_shop](https://github.com/user-attachments/assets/cdbe556d-5db6-4361-a3df-86a17a8c5a9e)
+
 
 # 🐾 PEDDY - Pet Companion Solution  
 
-GitHub Live Link :  https://wptasmina.github.io/pets_shop  
-
-Netlify Link :  https://peddpets-shop.netlify.app
+Netlify Link :  [peddpets_shop](https://peddpets-shop.netlify.app)
 
 ## 📌 Project Description  
 PEDDY is designed to assist modern busy individuals who spend long hours away from home while ensuring their companion animals receive the care they need. It provides essential information and adoption guidance for various pets, including:  
